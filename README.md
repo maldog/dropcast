@@ -6,7 +6,7 @@ Powershell script for creating podcast rss feed from Dropbox public directory
 Based on:
 https://github.com/inoks/dropcast
 
-1. Create dropbox account http://db.tt/14Bl8AQ9
+1. Create dropbox account https://db.tt/NdkirSi
 2. Download dropbox client https://www.dropbox.com/downloading
 3. Enable public folder for your account https://www.dropbox.com/enable_public_folder
 4. Put folders with mp3 in to Dropbox Public (or subfolder within)
