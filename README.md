@@ -1,18 +1,20 @@
 dropcast
 ========
 
-Python script for creating podcast rss feed from Dropbox public directory
+Powershell script for creating podcast rss feed from Dropbox public directory
 
+Based on:
+https://github.com/inoks/dropcast
 
 1. Create dropbox account http://db.tt/14Bl8AQ9
 2. Download dropbox client https://www.dropbox.com/downloading
 3. Enable public folder for your account https://www.dropbox.com/enable_public_folder
-4. Put folders with mp3 in to Dropbox Public
-5. Put podcast.py inside Public folder
-6. Right click on podcast.py - Dropbox - Copy public link
-7. Paste link to somethere and copy you id https://dl.dropbox.com/u/1234567/podcast.py (1234567 in example)
-8. Edit podcast.py and replace 1234567 with you ID
-9. Run podcast.py
-10. Copy public link to feed.xml (Right click - Dropbox - Copy public link)
-11. Enter link from clipboard to you podcast player
+4. Put folders with mp3 in to Dropbox Public (or subfolder within)
+5. Put Dropcast.ps1 anywhere on your computer
+6. Right click on any file within the Public Folder and copy public link
+7. Paste link to somethere and copy your id, ex, https://dl.dropbox.com/u/1234567/file.mp3 (1234567 in example)
+8. Edit Dropcast.ps1 and change values in "# Config values" section
+9. Run Dropcast.ps1
+10. Copy public link to podcast.rss (Right click - Dropbox - Copy public link)
+11. Enter link from clipboard to your podcast player
 12. Enjoy!
